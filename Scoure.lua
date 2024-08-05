@@ -5,7 +5,7 @@ local SynapseUI = {}
 	local TabSc = Instance.new("ScrollingFrame")
 	UIScale.Parent = Synapse
 	Synapse.Name = "Synapse"
-	Synapse.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	Synapse.Parent = game.CoreGui
 	Synapse.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 	function SynapseUI:CreatWindow()
